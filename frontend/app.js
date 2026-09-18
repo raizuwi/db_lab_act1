@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5500";
+const API_URL = "https://db-lab-act1.onrender.com";
 
 async function register() {
   const name = document.getElementById("name").value;
