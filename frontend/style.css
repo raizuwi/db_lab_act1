@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #383838;
+  background: #fffff3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,8 @@ body {
 }
 
 .container {
-  background: white;
+  background: rgb(56, 56, 56);
+  color: #fffff3;
   padding: 30px;
   width: 320px;
   border-radius: 10px;
