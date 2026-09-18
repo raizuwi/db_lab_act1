@@ -4,13 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <h1>Welcome to the Dashboard</h1>
-
-    <p>You have successfully logged in.</p>
-
-    <button onclick="logout()">Logout</button>
+  <body class="dashback">
+    <div class="dashdiv">
+      <center>
+        <section>
+            <img src="images/akashi.png" class="pfp">
+            <h1>Welcome to Darryl's Dashboard</h1>
+            <p>You have successfully logged in.</p>
+            
+            <button onclick="logout()">Logout</button>
+        </section>
+      </center>
+    </div>
 
     <script>
       function logout() {
