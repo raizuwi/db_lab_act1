@@ -84,3 +84,13 @@ button:hover {
   transform: scale(1.09);
   box-shadow: 0 0 50px rgba(250, 22, 53, 0.438);
 }
+
+a{
+  color: white;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(255, 77, 77);
+}
