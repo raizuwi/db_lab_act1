@@ -5,6 +5,18 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  /* Path to your GIF file */
+  background-image: url('images/akashi\ bg.gif');
+    
+  /* Ensures the GIF covers the entire screen without repeating */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: keeps background fixed during scroll */
+  
+  /* Ensures body takes up full viewport height */
+  margin: 0;
 }
 
 .container {
