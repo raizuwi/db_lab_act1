@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #fffff3;
+  background: #270f0f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,8 @@ button:hover {
 } */
 
 .dashdiv{
-  background: white;
+  background: rgb(56, 56, 56);
+  color: #fffff3;
   padding: 30px;
   width: 320px;
   border-radius: 10px;
